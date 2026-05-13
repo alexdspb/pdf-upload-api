@@ -1,5 +1,7 @@
 services:
   api:
+    image: axdn-pdf-upload-api
+    container_name: axdn-pdf-upload-api
     build: .
     ports:
       - "3000:3000"
